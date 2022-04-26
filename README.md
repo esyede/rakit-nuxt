@@ -1,3 +1,3 @@
 # Test rakit package
 
-Test rakit + nuxtjs integration
+Test rakit + nuxtjs integration (TEST!!)
