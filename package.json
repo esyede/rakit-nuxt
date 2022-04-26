@@ -1,0 +1,49 @@
+{
+  "name": "rakit-nuxt",
+  "version": "1.0.0",
+  "description": "Build a SPA with Rakit and Nuxt",
+  "bin": {
+    "rakit-nuxt": "./bin/rakit-nuxt.js",
+    "rakit-nuxt-dev": "./bin/rakit-nuxt-dev.js",
+    "rakit-nuxt-build": "./bin/rakit-nuxt-build.js"
+  },
+  "main": "./src/index.js",
+  "files": [
+    "bin",
+    "src"
+  ],
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^5.13.6",
+    "@nuxtjs/proxy": "^2.1.0",
+    "chalk": "^5.0.1",
+    "commander": "^9.2.0",
+    "cross-spawn": "^7.0.3",
+    "death": "^1.1.0",
+    "fs-extra": "^10.1.0",
+    "lodash": "^4.17.21",
+    "npm-which": "^3.0.1",
+    "nuxt": "^2.15.8"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esyede/rakit-nuxt.git"
+  },
+  "keywords": [
+    "nuxt",
+    "vue",
+    "rakit",
+    "spa"
+  ],
+  "author": "Suyadi <suyadi.1992@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/esyede/rakit-nuxt/issues"
+  },
+  "homepage": "https://github.com/esyede/rakit-nuxt#readme"
+}
