@@ -1,11 +1,11 @@
 {
-  "name": "rakit-nuxt",
+  "name": "@esyede/rakit-nuxt",
   "version": "1.0.0",
   "description": "Build a SPA with Rakit and Nuxt",
   "bin": {
-    "rakit-nuxt": "./bin/rakit-nuxt.js",
-    "rakit-nuxt-dev": "./bin/rakit-nuxt-dev.js",
-    "rakit-nuxt-build": "./bin/rakit-nuxt-build.js"
+    "rakit-nuxt": "bin/rakit-nuxt.js",
+    "rakit-nuxt-dev": "bin/rakit-nuxt-dev.js",
+    "rakit-nuxt-build": "bin/rakit-nuxt-build.js"
   },
   "main": "./src/index.js",
   "files": [
